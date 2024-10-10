@@ -9,7 +9,7 @@ const ItemList = () => {
         <ul>
             {items.map(item => (
                 <li key="item.id">
-                    <Link to={`/item/${item.id}`}>{item.name}</Link>
+                    <Link to={`/items/${item.id}`}>{item.name}</Link>
                 </li>
             ))}
         </ul>
