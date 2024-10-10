@@ -5,11 +5,11 @@ import { Link } from "react-router-dom"
 const ItemList = () => {
   return (
     <div>
-        <h1>ItemList</h1>
+        <h1>Item List</h1>
         <ul>
             {items.map(item => (
                 <li key="item.id">
-                    <Link to={`/items/${item.id}`}>{item.name}</Link>
+                    <Link to={`/item/${item.id}`}>{item.name}</Link>
                 </li>
             ))}
         </ul>
